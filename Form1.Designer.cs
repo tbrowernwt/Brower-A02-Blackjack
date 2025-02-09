@@ -52,8 +52,8 @@
             this.labelPlayerTotalAmt = new System.Windows.Forms.Label();
             this.labelPlayerTotalLabel = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelTotalGamesAmt = new System.Windows.Forms.Label();
+            this.labelTotalGamesLabel = new System.Windows.Forms.Label();
             this.labelTiesAmt = new System.Windows.Forms.Label();
             this.labelTiesLabel = new System.Windows.Forms.Label();
             this.labelDealerWinsAmt = new System.Windows.Forms.Label();
@@ -353,8 +353,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.labelTotalGamesAmt);
+            this.groupBox1.Controls.Add(this.labelTotalGamesLabel);
             this.groupBox1.Controls.Add(this.labelTiesAmt);
             this.groupBox1.Controls.Add(this.labelTiesLabel);
             this.groupBox1.Controls.Add(this.labelDealerWinsAmt);
@@ -368,23 +368,23 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Statistics";
             // 
-            // label1
+            // labelTotalGamesAmt
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(85, 133);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(13, 13);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "0";
+            this.labelTotalGamesAmt.AutoSize = true;
+            this.labelTotalGamesAmt.Location = new System.Drawing.Point(85, 133);
+            this.labelTotalGamesAmt.Name = "labelTotalGamesAmt";
+            this.labelTotalGamesAmt.Size = new System.Drawing.Size(13, 13);
+            this.labelTotalGamesAmt.TabIndex = 7;
+            this.labelTotalGamesAmt.Text = "0";
             // 
-            // label2
+            // labelTotalGamesLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 133);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Total Games: ";
+            this.labelTotalGamesLabel.AutoSize = true;
+            this.labelTotalGamesLabel.Location = new System.Drawing.Point(6, 133);
+            this.labelTotalGamesLabel.Name = "labelTotalGamesLabel";
+            this.labelTotalGamesLabel.Size = new System.Drawing.Size(73, 13);
+            this.labelTotalGamesLabel.TabIndex = 6;
+            this.labelTotalGamesLabel.Text = "Total Games: ";
             // 
             // labelTiesAmt
             // 
@@ -590,8 +590,8 @@
         private System.Windows.Forms.Label labelDealerWinsLabel;
         private System.Windows.Forms.Label labelPlayerWinsAmt;
         private System.Windows.Forms.Button buttonResetStatistics;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelTotalGamesAmt;
+        private System.Windows.Forms.Label labelTotalGamesLabel;
         private System.Windows.Forms.PictureBox pictureBoxDecoration1;
         private System.Windows.Forms.PictureBox pictureBoxDecoration2;
     }

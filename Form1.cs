@@ -18,6 +18,7 @@ namespace Brower_A02_Blackjack
         private int PlayerWins = 0;
         private int DealerWins = 0;
         private int Pushes = 0;
+        private int TotalGames = 0;
         
         public Form1()
         {
@@ -40,6 +41,7 @@ namespace Brower_A02_Blackjack
 
         private void buttonStartNewGame_Click(object sender, EventArgs e)
         {
+            TotalGames++;
             foreach (PictureBox p in PlayerPictureBoxesList)
             {
                 p.Image = null;
@@ -127,6 +129,7 @@ namespace Brower_A02_Blackjack
             labelPlayerWinsAmt.Text = PlayerWins.ToString();
             labelDealerWinsAmt.Text = DealerWins.ToString();
             labelTiesAmt.Text = Pushes.ToString();
+            labelTotalGamesAmt.Text = TotalGames.ToString(); 
         }
     }
 }
