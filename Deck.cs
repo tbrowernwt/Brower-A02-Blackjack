@@ -45,7 +45,10 @@ namespace Brower_A02_Blackjack
         }  
         public Card DealRandomCard()
         {
-            return cardsList[rng.Next(cardsList.Count)];
+            int i = rng.Next(cardsList.Count);
+            Card c = cardsList[i];
+            cardsList.RemoveAt(i); // A dealt card gets REMOVED from the deck
+            return c;
         }
     }
 }
