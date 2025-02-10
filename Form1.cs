@@ -81,10 +81,6 @@ namespace Brower_A02_Blackjack
         private void UpdatePlayfield()
         {
             int i = 0;
-            foreach (Card c in GamePlay.GetPlayerHand().GetCardsInHand())
-            {
-                PlayerPictureBoxesList[i].Image = c.GetCardFront();
-            }
             labelPlayerTotalAmt.Text = GamePlay.GetPlayerHand().GetHandValue().ToString();
             if (GamePlay.GetIfPlayerTurn()) // Update dealer's side of the field. Show first card if it's player's turn
             {
