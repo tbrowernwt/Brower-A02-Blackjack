@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
-// TODO: Refactor Hit and logic to check if blackjack and bust (calling the functions)
+
 
 namespace Brower_A02_Blackjack
 {
